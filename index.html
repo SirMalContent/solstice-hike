@@ -107,32 +107,32 @@
         <p>David will be in touch with everything you need to know. See you on the trail.</p>
       </div>
       <form id="rsvp-form" action="https://formspree.io/f/mnjlarpl" method="POST">
-        <div class="form-row">
-          <div class="form-group">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" placeholder="Your name" required/>
-          </div>
-          <div class="form-group">
-            <label for="email">Email Address</label>
-            <input type="email" id="email" placeholder="your@email.com" required/>
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group">
-            <label for="city">Your City</label>
-            <input type="text" id="city" placeholder="e.g. Chattanooga, Nashville..."/>
-          </div>
-          <div class="form-group">
-            <label for="returning">Returning or new?</label>
-            <select id="returning">
-              <option value="">Select one</option>
-              <option value="first">First time!</option>
-              <option value="returning">I've hiked with you before</option>
-            </select>
-          </div>
-        </div>
-        <button type="submit" class="submit-btn">Send My RSVP ☀️</button>
-      </form>
+  <div class="form-row">
+    <div class="form-group">
+      <label for="name">Full Name</label>
+      <input type="text" name="name" id="name" placeholder="Your name" required/>
+    </div>
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" name="email" id="email" placeholder="your@email.com" required/>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group">
+      <label for="city">Your City</label>
+      <input type="text" name="city" id="city" placeholder="e.g. Chattanooga, Nashville..."/>
+    </div>
+    <div class="form-group">
+      <label for="returning">Returning or new?</label>
+      <select name="returning" id="returning">
+        <option value="">Select one</option>
+        <option value="first">First time!</option>
+        <option value="returning">I've hiked with you before</option>
+      </select>
+    </div>
+  </div>
+  <button type="submit" class="submit-btn">Send My RSVP ☀️</button>
+	</form>
     </div>
   </div>
 </section>
